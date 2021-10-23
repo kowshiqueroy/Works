@@ -1,7 +1,7 @@
 #Symbol Table with Hash chaining
 #ht =>Hash table
 # vl=> Value ty=>Type
-ht = [[] for _ in range(10)] #Nested Listing
+ht = [[] for _ in range(10)] #Nested Listing 10X10
 #10 value
 
 #print (ht) #debuging
@@ -23,6 +23,7 @@ def insert(ht, vl, ty): # ty Type
 			break
 	if key_is_avail:
 		bucket.append((vl, ty))
+
 	else:
 		bucket.append((vl, ty))
 
@@ -60,9 +61,9 @@ def delete(hash_table, vl):
 	hash_key = hf(vl)
 	key_exists = False
 	bucket = hash_table[hash_key]
-	for i, kv in enumerate(bucket):
-		k, v = kv
-		if vl == k:
+	for i, vt in enumerate(bucket):
+		v, t = vt
+		if vl == v:
 			key_exists = True
 			break
 	if key_exists:
