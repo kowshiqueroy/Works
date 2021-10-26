@@ -90,11 +90,10 @@ def PrintDetails():
 
 
 Create_Productions(grammar)
-for nt in productions:
+for nt in productions: #A B C
     first_table[nt] = Cal_first(nt)
 follow_table[start_sym] = set('$')
 for nt in productions:
     follow_table[nt] = Cal_follow(nt)
 
 PrintDetails()
-print(i)
