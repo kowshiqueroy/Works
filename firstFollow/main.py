@@ -1,24 +1,17 @@
 import re
 
-start_sym = ""
-productions = {}
-first_table = {} 
-follow_table = {}
-table = {}
-i = 0
-
-file = 'Input.txt'
-grammar = open(file, "r")
+file = 'inputfile.txt'
+grammarInput = open(file, "r")
 
 
 def Create_Productions(grammar):
-    global start_sym
+    global startSymbol
     for production in grammar:
         lhs, rhs = re.split("->", production)
         rhs = re.split("\||\n", rhs)
         productions[lhs] = set(rhs) - {''}
-        if not start_sym:
-            start_sym = lhs
+        if not startSymbol:
+            startSymbol = lhs
 
 
 def isNonterminal(sym):
@@ -29,8 +22,8 @@ def isNonterminal(sym):
 
 
 def Cal_first(sym):
-    if sym in first_table:
-        return first_table[sym];
+    if sym in firstList:
+        return firstList[sym];
     if isNonterminal(sym):
         first = set()
         for x in productions[sym]:
@@ -52,8 +45,8 @@ def Cal_first(sym):
 
 def Cal_follow(sym):
     global i
-    if sym not in follow_table:
-        follow_table[sym] = set()
+    if sym not in followList:
+        followList[sym] = set()
     for nt in productions.keys():
         for rule in productions[nt]:
             pos = rule.find(sym)
@@ -61,7 +54,7 @@ def Cal_follow(sym):
                 if pos == (len(rule) - 1):
                     if nt != sym:
                         i += 1
-                        follow_table[sym] = follow_table[sym].union(Cal_follow(nt))
+                        followList[sym] = followList[sym].union(Cal_follow(nt))
                 else:
                     first_next = set()
                     for next in rule[pos + 1:]:
@@ -71,29 +64,38 @@ def Cal_follow(sym):
                             break
                     if '@' in fst_next:
                         if nt != sym:
-                            follow_table[sym] = follow_table[sym].union(Cal_follow(nt))
-                            follow_table[sym] = follow_table[sym].union(first_next) - {'@'}
+                            followList[sym] = followList[sym].union(Cal_follow(nt))
+                            followList[sym] = followList[sym].union(first_next) - {'@'}
                     else:
-                        follow_table[sym] = follow_table[sym].union(first_next)
-    return follow_table[sym]
+                        followList[sym] = followList[sym].union(first_next)
+    return followList[sym]
 
 
-def PrintDetails():
-    print("!! First Sets !!")
-    for nt in productions:
-        print(nt + ":" + str(first_table[nt]))
-    print("\n")
-    print("!! Follow Sets !!")
-    for nt in productions:
-        print(nt + ":" + str(follow_table[nt]))
-    print("\n")
+
+startSymbol = ""
+productions = {}
+firstList = {}
+followList = {}
+table = {}
+i = 0
 
 
-Create_Productions(grammar)
-for nt in productions: #A B C
-    first_table[nt] = Cal_first(nt)
-follow_table[start_sym] = set('$')
+Create_Productions(grammarInput)
 for nt in productions:
-    follow_table[nt] = Cal_follow(nt)
+    firstList[nt] = Cal_first(nt)
 
-PrintDetails()
+followList[startSymbol] = set('$')
+
+for nt in productions:
+    followList[nt] = Cal_follow(nt)
+
+
+
+print("First Function")
+for nt in productions:
+    print(nt + ":" + str(firstList[nt]))
+print("\n")
+print("Follow Function")
+for nt in productions:
+    print(nt + ":" + str(followList[nt]))
+print("\n")
