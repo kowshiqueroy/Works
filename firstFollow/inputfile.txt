@@ -1,3 +1,4 @@
-S->aSe|B
-B->bBCf|C
-C->cCg|d|#
+X->a|#
+Y->b|#
+Z->c|#
+G->XYZ
