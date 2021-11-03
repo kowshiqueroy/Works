@@ -104,9 +104,11 @@ for(;;){
     }
     if(x[0] == x[chk] && y[0] == y[chk]){
     endfunc(f,1);
+    //printf("Your score is : %d\n", f);
     break;
     }
 }
+//printf("Your score is : %d\n", f);
 }
 
 int endfunc(int e,int a){

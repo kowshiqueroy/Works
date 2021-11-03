@@ -5,6 +5,8 @@
 int main()
 {
 	int x=640,y=480,i=0,j=0,count=0,score=0;
+
+
 	char ch;
 
 	int gd=DETECT,gm;
@@ -35,6 +37,11 @@ int main()
 			i=0;
 			count++;
 			score+=10;
+			system("CLS");
+			printf("Your score : %d\n",score);
+			//delay(1000);
+
+
 			setfillstyle(1,RED);
 		 	bar(x/2+213+i,y/2,x/2+233+i,y/2-20);
 		 	bar(x/2+540+i,y/2,x/2+560+i,y/2-20);
@@ -65,7 +72,7 @@ int main()
 			delay(2);
 	}
 
-	printf("Your score : %d",score);
+	printf("Game Over");
 
 	getch();
 	closegraph();
