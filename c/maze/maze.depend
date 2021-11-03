@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1635949047 source:c:\users\kowshique\documents\laptoptogithub\works\c\maze\main.cpp
+	<stdio.h>
+	<graphics.h>
+	<conio.h>
+	<stdlib.h>
+
