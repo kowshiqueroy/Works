@@ -479,7 +479,7 @@ void fristDesign(){
 
         glColor3f(0.000, 1.000, 1.000);
         renderBitmapString(30-5,50-40,(void *)font3,"Project By:");
-        renderBitmapString(30-5,50-43,(void *)font3,"Kowshique Roy");
+        renderBitmapString(30-5,50-43,(void *)font3,"Kush");
 
 
 }
