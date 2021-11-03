@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Graphics Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Graphics Project" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="G:/Computer Graphics Opengl/Graphics Project/include" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Graphics Project" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include" />
+			<Add directory="../SFML-2.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib" />
+			<Add directory="../SFML-2.1/lib" />
+		</Linker>
+		<Unit filename="include/ai.h" />
+		<Unit filename="include/background.h" />
+		<Unit filename="include/bullet.h" />
+		<Unit filename="include/colition.h" />
+		<Unit filename="include/color.h" />
+		<Unit filename="include/controller.h" />
+		<Unit filename="include/enemy.h" />
+		<Unit filename="include/hero.h" />
+		<Unit filename="include/particles.h" />
+		<Unit filename="include/shapes.h" />
+		<Unit filename="include/soundcontroller.h" />
+		<Unit filename="include/text.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/ai.cpp" />
+		<Unit filename="src/background.cpp" />
+		<Unit filename="src/bullet.cpp" />
+		<Unit filename="src/colition.cpp" />
+		<Unit filename="src/color.cpp" />
+		<Unit filename="src/controller.cpp" />
+		<Unit filename="src/enemy.cpp" />
+		<Unit filename="src/hero.cpp" />
+		<Unit filename="src/particles.cpp" />
+		<Unit filename="src/shapes.cpp" />
+		<Unit filename="src/soundcontroller.cpp" />
+		<Unit filename="src/text.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

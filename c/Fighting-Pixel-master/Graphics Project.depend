@@ -1,0 +1,874 @@
+# depslib dependency file v1.0
+1403358527 source:g:\computer graphics opengl\graphics project\src\color.cpp
+	"color.h"
+	<string>
+	<cstring>
+	<sstream>
+	<iostream>
+
+1403358513 g:\computer graphics opengl\graphics project\include\color.h
+	<string>
+
+1411370332 source:g:\computer graphics opengl\graphics project\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<stdlib.h>
+	<color.h>
+	<iostream>
+	<cmath>
+	<mmsystem.h>
+	<shapes.h>
+	<background.h>
+	<hero.h>
+	<enemy.h>
+	<ai.h>
+	<text.h>
+	<controller.h>
+	<particles.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winerror.h
+
+1341010376 c:\program files\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1341010370 c:\program files\codeblocks\mingw\include\_mingw.h
+
+1301111148 c:\program files\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\program files\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\program files\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\program files\codeblocks\mingw\include\winver.h
+
+1301111148 c:\program files\codeblocks\mingw\include\dde.h
+
+1301111150 c:\program files\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\program files\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\program files\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\program files\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\program files\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\program files\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\program files\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\program files\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\program files\codeblocks\mingw\include\imm.h
+
+1301111154 c:\program files\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\program files\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\program files\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\program files\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnterr.h
+
+1341010372 c:\program files\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\program files\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\program files\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\program files\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\program files\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1341010376 c:\program files\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\program files\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\program files\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\program files\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+976645372 c:\program files\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\gl.h
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1406993638 source:g:\computer graphics opengl\graphics project\src\background.cpp
+	"background.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+
+1406992225 g:\computer graphics opengl\graphics project\include\background.h
+
+1406909078 source:g:\computer graphics opengl\graphics project\src\shapes.cpp
+	"shapes.h"
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<color.h>
+	<math.h>
+
+1406909071 g:\computer graphics opengl\graphics project\include\shapes.h
+	<color.h>
+
+1341010374 c:\program files\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1407051200 g:\computer graphics opengl\graphics project\include\hero.h
+	<vector>
+	<bullet.h>
+	<text.h>
+	<cmath>
+
+1406996023 source:g:\computer graphics opengl\graphics project\src\hero.cpp
+	"hero.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<iostream>
+	"bullet.h"
+
+1406877418 g:\computer graphics opengl\graphics project\include\bullet.h
+	<text.h>
+
+1406919408 source:g:\computer graphics opengl\graphics project\src\bullet.cpp
+	"bullet.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<iostream>
+
+1406995069 source:g:\computer graphics opengl\graphics project\src\enemy.cpp
+	"Enemy.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<iostream>
+	"bullet.h"
+
+1406995023 g:\computer graphics opengl\graphics project\include\enemy.h
+	<vector>
+	<bullet.h>
+	<color.h>
+	<text.h>
+
+1407051813 source:g:\computer graphics opengl\graphics project\src\ai.cpp
+	"ai.h"
+	<iostream>
+	<text.h>
+
+1407049737 g:\computer graphics opengl\graphics project\include\ai.h
+	<color.h>
+	<vector>
+	<enemy.h>
+	<math.h>
+	<cstdlib>
+	<hero.h>
+	<colition.h>
+	<particles.h>
+
+1407051539 source:g:\computer graphics opengl\graphics project\src\colition.cpp
+	"colition.h"
+
+1406904057 g:\computer graphics opengl\graphics project\include\colition.h
+	<vector>
+	<bullet.h>
+	<enemy.h>
+	<cmath>
+	<iostream>
+	<hero.h>
+
+1407002115 source:g:\computer graphics opengl\graphics project\src\text.cpp
+	"text.h"
+	<cstdio>
+
+1406911007 g:\computer graphics opengl\graphics project\include\text.h
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<string>
+	<cstring>
+	<color.h>
+	<math.h>
+	<cstdlib>
+
+1406992413 g:\computer graphics opengl\graphics project\include\controller.h
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<text.h>
+	<ai.h>
+	<background.h>
+	<soundcontroller.h>
+
+1408774997 source:g:\computer graphics opengl\graphics project\src\controller.cpp
+	"controller.h"
+
+1407051938 source:g:\computer graphics opengl\graphics project\src\soundcontroller.cpp
+	"soundcontroller.h"
+
+1407051903 g:\computer graphics opengl\graphics project\include\soundcontroller.h
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<stdlib.h>
+	<color.h>
+	<iostream>
+	<cmath>
+	<mmsystem.h>
+
+1367997278 g:\computer graphics opengl\sfml-2.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1374390132 g:\computer graphics opengl\sfml-2.1\include\sfml\config.hpp
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1368099372 g:\computer graphics opengl\sfml-2.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\thread.inl
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\threadlocalptr.inl
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1372053422 g:\computer graphics opengl\sfml-2.1\include\sfml\system\utf.inl
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\vector2.inl
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1367997281 g:\computer graphics opengl\sfml-2.1\include\sfml\system\vector3.inl
+
+1367997278 g:\computer graphics opengl\sfml-2.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1367997278 g:\computer graphics opengl\sfml-2.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1367997278 g:\computer graphics opengl\sfml-2.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1367997278 g:\computer graphics opengl\sfml-2.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1367997278 g:\computer graphics opengl\sfml-2.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1367997278 g:\computer graphics opengl\sfml-2.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1367997278 g:\computer graphics opengl\sfml-2.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1367997278 g:\computer graphics opengl\sfml-2.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1367997278 g:\computer graphics opengl\sfml-2.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Thread.hpp>
+	<vector>
+
+1407050000 g:\computer graphics opengl\graphics project\include\particles.h
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<shapes.h>
+	<color.h>
+	<math.h>
+
+1407050333 source:g:\computer graphics opengl\graphics project\src\particles.cpp
+	"particles.h"
+
+1411370332 source:e:\computer graphics opengl\graphics project\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<stdlib.h>
+	<color.h>
+	<iostream>
+	<cmath>
+	<mmsystem.h>
+	<shapes.h>
+	<background.h>
+	<hero.h>
+	<enemy.h>
+	<ai.h>
+	<text.h>
+	<controller.h>
+	<particles.h>
+
+1403358513 e:\computer graphics opengl\graphics project\include\color.h
+	<string>
+
+1406909071 e:\computer graphics opengl\graphics project\include\shapes.h
+	<color.h>
+
+1406992225 e:\computer graphics opengl\graphics project\include\background.h
+
+1407051200 e:\computer graphics opengl\graphics project\include\hero.h
+	<vector>
+	<bullet.h>
+	<text.h>
+	<cmath>
+
+1406877418 e:\computer graphics opengl\graphics project\include\bullet.h
+	<text.h>
+
+1406911007 e:\computer graphics opengl\graphics project\include\text.h
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<string>
+	<cstring>
+	<color.h>
+	<math.h>
+	<cstdlib>
+
+1406995023 e:\computer graphics opengl\graphics project\include\enemy.h
+	<vector>
+	<bullet.h>
+	<color.h>
+	<text.h>
+
+1407049737 e:\computer graphics opengl\graphics project\include\ai.h
+	<color.h>
+	<vector>
+	<enemy.h>
+	<math.h>
+	<cstdlib>
+	<hero.h>
+	<colition.h>
+	<particles.h>
+
+1406904057 e:\computer graphics opengl\graphics project\include\colition.h
+	<vector>
+	<bullet.h>
+	<enemy.h>
+	<cmath>
+	<iostream>
+	<hero.h>
+
+1407050000 e:\computer graphics opengl\graphics project\include\particles.h
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<shapes.h>
+	<color.h>
+	<math.h>
+
+1406992413 e:\computer graphics opengl\graphics project\include\controller.h
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<text.h>
+	<ai.h>
+	<background.h>
+	<soundcontroller.h>
+
+1407051903 e:\computer graphics opengl\graphics project\include\soundcontroller.h
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<stdlib.h>
+	<color.h>
+	<iostream>
+	<cmath>
+	<mmsystem.h>
+
+1407051813 source:e:\computer graphics opengl\graphics project\src\ai.cpp
+	"ai.h"
+	<iostream>
+	<text.h>
+
+1406993638 source:e:\computer graphics opengl\graphics project\src\background.cpp
+	"background.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+
+1406919408 source:e:\computer graphics opengl\graphics project\src\bullet.cpp
+	"bullet.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<iostream>
+
+1407051539 source:e:\computer graphics opengl\graphics project\src\colition.cpp
+	"colition.h"
+
+1403358527 source:e:\computer graphics opengl\graphics project\src\color.cpp
+	"color.h"
+	<string>
+	<cstring>
+	<sstream>
+	<iostream>
+
+1408774997 source:e:\computer graphics opengl\graphics project\src\controller.cpp
+	"controller.h"
+
+1406995069 source:e:\computer graphics opengl\graphics project\src\enemy.cpp
+	"Enemy.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<iostream>
+	"bullet.h"
+
+1406996023 source:e:\computer graphics opengl\graphics project\src\hero.cpp
+	"hero.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<iostream>
+	"bullet.h"
+
+1407050333 source:e:\computer graphics opengl\graphics project\src\particles.cpp
+	"particles.h"
+
+1406909078 source:e:\computer graphics opengl\graphics project\src\shapes.cpp
+	"shapes.h"
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<color.h>
+	<math.h>
+
+1407051938 source:e:\computer graphics opengl\graphics project\src\soundcontroller.cpp
+	"soundcontroller.h"
+
+1407002115 source:e:\computer graphics opengl\graphics project\src\text.cpp
+	"text.h"
+	<cstdio>
+
+1635946907 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<stdlib.h>
+	<color.h>
+	<iostream>
+	<cmath>
+	<mmsystem.h>
+	<shapes.h>
+	<background.h>
+	<hero.h>
+	<enemy.h>
+	<ai.h>
+	<text.h>
+	<controller.h>
+	<particles.h>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\color.h
+	<string>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\shapes.h
+	<color.h>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\background.h
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\hero.h
+	<vector>
+	<bullet.h>
+	<text.h>
+	<cmath>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\bullet.h
+	<text.h>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\text.h
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<string>
+	<cstring>
+	<color.h>
+	<math.h>
+	<cstdlib>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\enemy.h
+	<vector>
+	<bullet.h>
+	<color.h>
+	<text.h>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\ai.h
+	<color.h>
+	<vector>
+	<enemy.h>
+	<math.h>
+	<cstdlib>
+	<hero.h>
+	<colition.h>
+	<particles.h>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\colition.h
+	<vector>
+	<bullet.h>
+	<enemy.h>
+	<cmath>
+	<iostream>
+	<hero.h>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\particles.h
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<shapes.h>
+	<color.h>
+	<math.h>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\controller.h
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<text.h>
+	<ai.h>
+	<background.h>
+	<soundcontroller.h>
+
+1635946908 c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\include\soundcontroller.h
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<stdlib.h>
+	<color.h>
+	<iostream>
+	<cmath>
+	<mmsystem.h>
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\ai.cpp
+	"ai.h"
+	<iostream>
+	<text.h>
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\background.cpp
+	"background.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\bullet.cpp
+	"bullet.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<iostream>
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\colition.cpp
+	"colition.h"
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\color.cpp
+	"color.h"
+	<string>
+	<cstring>
+	<sstream>
+	<iostream>
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\controller.cpp
+	"controller.h"
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\enemy.cpp
+	"Enemy.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<iostream>
+	"bullet.h"
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\hero.cpp
+	"hero.h"
+	<shapes.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<iostream>
+	"bullet.h"
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\particles.cpp
+	"particles.h"
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\shapes.cpp
+	"shapes.h"
+	<windows.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<color.h>
+	<math.h>
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\soundcontroller.cpp
+	"soundcontroller.h"
+
+1635946909 source:c:\users\kowshique\documents\laptoptogithub\works\c\fighting-pixel-master\src\text.cpp
+	"text.h"
+	<cstdio>
+
