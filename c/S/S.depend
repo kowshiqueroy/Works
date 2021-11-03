@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1635944226 source:c:\users\kowshique\documents\laptoptogithub\works\c\s\main.cpp
+	<graphics.h>
+	<time.h>
+	<stdio.h>
+	<windows.h>
+	<stdlib.h>
+
