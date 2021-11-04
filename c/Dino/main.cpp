@@ -10,11 +10,11 @@ int main()
 	char ch;
 
 	int gd=DETECT,gm;
-	initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
+	initgraph(&gd,&gm,"C:\\Users\\Kowshique\\Desktop\\fly2.png");
 
 	for(;;)
 	{
-		setfillstyle(1,BLACK);
+		setfillstyle(1,GREEN);
 		floodfill(10,10,WHITE);
 		setlinestyle(0,1,1);
 		line(x/2-320+i,y/2,x/2+10000+i,y/2);
@@ -58,7 +58,7 @@ int main()
 		}
 
 		//jumper
-		setfillstyle(1,GREEN);
+		setfillstyle(1,BLUE);
 		bar(x/2-180,y/2-25-j,x/2-200,y/2-5-j);
 
 		if(j>=0)
